@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Route, Router, Routes } from "react-router-dom";
 
 export default function App() {
   return (
@@ -11,6 +11,13 @@ export default function App() {
       <NavLink to="/about">About</NavLink>
        
      </nav>
+
+     <main>
+      <Routes>
+        <Route path="/" element={<h2>Home</h2>}/>
+        <Route path="/about" element={<h2>About</h2>}/>
+      </Routes>
+     </main>
 
     </div>
   );
