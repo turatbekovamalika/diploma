@@ -8,13 +8,12 @@ export default function Layout(props) {
                 <Nav />
             </header>
 
-            <aside>
-                ASIDE
-            </aside>
-
             <main>
                 {props.children}
             </main>
+            <aside>
+                ASIDE
+            </aside>
 
             <footer>
                 Footer
