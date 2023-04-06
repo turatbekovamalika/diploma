@@ -1,3 +1,8 @@
+.Layout{
+    max-width: 789px;
+}
+
+
 .Layout header {
     background-color: antiquewhite;
 }
