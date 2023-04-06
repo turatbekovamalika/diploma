@@ -7,7 +7,7 @@ export default function Home() {
             </p>
             <p>
                 We create only high-quality products so that you can empihasize your beauty
-                </p>
+            </p>
         </div>
     )
 }
