@@ -1,4 +1,4 @@
-.Layout{
+.Layout {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -14,13 +14,13 @@
 }
 
 .Layout aside {
-    flex:20% 0 0 ;
+    flex: 20% 0 0;
     background-color: #f9ece4;
 }
 
 .Layout main {
     flex: 80% 1 1;
-    background-color: #F6DDCC ;
+    background-color: #F6DDCC;
     padding: 100px;
 }
 
