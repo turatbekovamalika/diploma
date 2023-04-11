@@ -11,6 +11,9 @@
     flex-grow: 0;
     flex-shrink: 0;
     background-color: #F5B7B1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .Layout aside {
@@ -31,3 +34,4 @@
     background-color: #F5B7B1;
     padding: 100px;
 }
+
