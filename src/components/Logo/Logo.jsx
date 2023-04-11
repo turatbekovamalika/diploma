@@ -1,5 +1,5 @@
 import "./Logo.css";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo-cosmetics.jpg";
 import { NavLink } from "react-router-dom";
 
 
