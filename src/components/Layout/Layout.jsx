@@ -1,3 +1,4 @@
+import CategoryList from "../CategoryList/CategoryList";
 import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
 import "./Layout.css";
@@ -14,7 +15,7 @@ export default function Layout(props) {
                 {props.children}
             </main>
             <aside>
-                ASIDE
+              <CategoryList/>
             </aside>
 
             <footer>
