@@ -7,9 +7,9 @@ import { categoryCollection } from "../../firebase";
 export default function CategoryList() {
     const [categories, setCategories] = useState([]);
 
-//выполнить эту функциу один раз
+    //выполнить эту функциу один раз
     useEffect(() => {
-//получить категроии из списка категорий
+        //получить категроии из списка категорий
         getDocs(categoryCollection)
             .then(snapshot => {
                 //категории будут храниться в snapshot.docs

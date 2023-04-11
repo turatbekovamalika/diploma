@@ -1,15 +1,15 @@
-.Nav ul{
+.Nav ul {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.Nav ul li a{
-    color:#7B241C;
-    display: block;
-    padding: 25px;
-    margin-left: 55px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
+.Nav ul li a {
+  color: #7B241C;
+  display: block;
+  padding: 25px;
+  margin-left: 55px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
 }
