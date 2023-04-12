@@ -18,12 +18,12 @@
 
 .Layout aside {
     flex: 20% 0 0;
-    background-color: #f5e6dc;
+    background-color: #f2ded1;
 }
 
 .Layout main {
     flex: 80% 1 1;
-    background-color: #F6DDCC;
+    background-color: #fbd0cc;
     padding: 100px;
 }
 
