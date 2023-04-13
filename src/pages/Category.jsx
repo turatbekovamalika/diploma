@@ -2,12 +2,17 @@ import { useContext } from "react";
 import { useMatch } from "react-router-dom";
 import { AppContext } from "../App";
 
-export default function Category(){
+export default function Category() {
     //деструктизация 
-    const {params} = useMatch("/category/:path");
-    const {categories} = useContext(AppContext);
+    const { params } = useMatch("/category/:path");
+    const { categories } = useContext(AppContext);
 
-    return(
+    const category = categories.find
+        (category => params.path === category.path
+        );
+
+
+    return (
         <div className="Category">
             <h1>Category</h1>
         </div>
