@@ -8,7 +8,9 @@ import Category from "./pages/Category";
 import { createContext } from "react";
 
 
-export const AppContext = createContext();
+export const AppContext = createContext({
+  categories: []
+});
 
 export default function App() {
   return (
