@@ -1,7 +1,8 @@
 .Logo img {
     width: 100px;
     border-radius: 50%;
-    margin-right: 537px ;
+    position: relative;
+    left: 50px;
 }
 
 .Logo img:hover{
