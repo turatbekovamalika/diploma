@@ -16,7 +16,7 @@ export default function CartList() {
                     {product.name}
                 </Link>
                 <span>{cart[product.id]} items</span>
-                <span>{product.price * cart[product.id]} som</span>
+                <span>{product.price * cart[product.id]} $</span>
             </div>
         ));
 
