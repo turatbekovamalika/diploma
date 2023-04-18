@@ -12,12 +12,20 @@ import { categoryCollection, produtcCollection } from "./firebase";
 
 export const AppContext = createContext({
   categories: [],
-  products: []
+  products: [],
+
+  //корзина
+  cart : {},
+  setCart :() => {}
 });
 
 export default function App() {
 const [categories, setCategories] = useState([]);
 const [products, setProducts] = useState ([]);
+
+
+//корзина
+const [cart, setCart] = useState({});
 
 
  //выполнить эту функциу один раз

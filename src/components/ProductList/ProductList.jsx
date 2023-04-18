@@ -15,12 +15,12 @@ export default function ProductList({ category }) {
             <img src={product.picture} alt={product.name} />
 
             
-              <div className="Tried"> <p>forever and always</p>
+              <div className="Tried"> <p>{product.color}</p>
                 <span>{product.price} $</span>
                 </div> 
      
                 <Link className="About-product" to={"/product/" + product.path}>
-                    {product.name}
+                    { product.name }
                 </Link>
                 
        
@@ -30,6 +30,7 @@ export default function ProductList({ category }) {
 
     return (
         <div className="ProductList">
+           
             {output}
         </div>
     )
