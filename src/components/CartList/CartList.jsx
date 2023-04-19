@@ -20,6 +20,7 @@ export default function CartList() {
     delete newCart[product.id];
     setCart(newCart);
   }
+  
 
   const productIds = Object.keys(cart);
   const output = products
