@@ -19,7 +19,9 @@ export const AppContext = createContext({
 
   //корзина
   cart: {},
-  setCart: () => { }
+  setCart: () => { },
+
+  user : null,
 });
 
 export default function App() {
