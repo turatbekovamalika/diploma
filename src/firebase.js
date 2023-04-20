@@ -22,7 +22,7 @@ const auth = getAuth(app);
 
 //получить список категорий (коллекция документов)
 export const categoryCollection = collection(db, 'categories');
-export const produtcCollection = collection(db, 'products');
+export const productCollection = collection(db, 'products');
 
 const provider = new GoogleAuthProvider ();
 export const logIn = ()=> signInWithPopup(auth, provider);
