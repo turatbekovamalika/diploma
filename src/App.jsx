@@ -28,7 +28,7 @@ export default function App() {
   //корзина
   const [cart, setCart] = useState(() => {
     //восстанавливает содержимое корзинки из памяти брауизера
-    return JSON.parse(localStorage.getItem("cart"));
+    return JSON.parse(localStorage.getItem("cart")) || {};
   });
 
 
