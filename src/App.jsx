@@ -94,7 +94,7 @@ export default function App() {
             <Route path="/cart" element={<Cart />} />
 
 
-            <Route path="*" element={<NotFound />}/>
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
       </AppContext.Provider>
