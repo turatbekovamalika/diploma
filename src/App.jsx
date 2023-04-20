@@ -16,55 +16,67 @@ export const AppContext = createContext({
   products: [],
 
   //корзина
-  cart : {},
-  setCart :() => {}
+  cart: {},
+  setCart: () => { }
 });
 
 export default function App() {
-const [categories, setCategories] = useState([]);
-const [products, setProducts] = useState ([]);
+  const [categories, setCategories] = useState([]);
+  const [products, setProducts] = useState([]);
 
 
-//корзина
-const [cart, setCart] = useState({});
+  //корзина
+  const [cart, setCart] = useState(() => {
+    //восстанавливает содержимое корзинки из памяти брауизера
+    return JSON.parse(localStorage.getItem("cart"));
+  });
 
 
- //выполнить эту функциу один раз
- useEffect(() => {
-  //получить категроии из списка категорий
-  getDocs(categoryCollection)
+  //выполнить эту функцию только когда содержимое корзинки меняетсяя 
+  useEffect(() => {
+    //сохранить содержимое корзинки в памяти блаузера
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }, [cart]);
+
+
+
+
+  //выполнить эту функциу один раз
+  useEffect(() => {
+    //получить категроии из списка категорий
+    getDocs(categoryCollection)
       .then(snapshot => {
-          //категории будут храниться в snapshot.docs
-          //слздать массив для категорий
-          const newCategories = [];
-          //заполнить массив данными из списка категорий
-          snapshot.docs.forEach(doc => {// doc это категория 
-              const category = doc.data();
-              category.id = doc.id;
+        //категории будут храниться в snapshot.docs
+        //слздать массив для категорий
+        const newCategories = [];
+        //заполнить массив данными из списка категорий
+        snapshot.docs.forEach(doc => {// doc это категория 
+          const category = doc.data();
+          category.id = doc.id;
 
-              newCategories.push(category);
-          });
-          //задать новый массив как состояние компонента
-          setCategories(newCategories);
+          newCategories.push(category);
+        });
+        //задать новый массив как состояние компонента
+        setCategories(newCategories);
       })
 
-      //получить продукты из списка родукто
-  getDocs(produtcCollection)
-  .then(snapshot => {
-      //категории будут храниться в snapshot.docs
-      //создать массив для продуктов
-      const newProducts = [];
-      //заполнить массив данными из списка продуктов
-      snapshot.docs.forEach(doc => {// doc это категория 
+    //получить продукты из списка родукто
+    getDocs(produtcCollection)
+      .then(snapshot => {
+        //категории будут храниться в snapshot.docs
+        //создать массив для продуктов
+        const newProducts = [];
+        //заполнить массив данными из списка продуктов
+        snapshot.docs.forEach(doc => {// doc это категория 
           const product = doc.data();
           product.id = doc.id;
 
           newProducts.push(product);
-      });
-      //задать новый массив как состояние компонента
-      setProducts(newProducts);
-  })
-}, []);
+        });
+        //задать новый массив как состояние компонента
+        setProducts(newProducts);
+      })
+  }, []);
 
 
 
@@ -78,7 +90,7 @@ const [cart, setCart] = useState({});
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/delivery" element={<Delivery />} />
             <Route path="/category/:path" element={<Category />} />
-            <Route path="/cart" element= {<Cart/>}/>
+            <Route path="/cart" element={<Cart />} />
           </Routes>
         </Layout>
       </AppContext.Provider>
