@@ -9,6 +9,7 @@ import { createContext, useEffect, useState } from "react";
 import { getDocs } from "firebase/firestore";
 import { categoryCollection, produtcCollection } from "./firebase";
 import Cart from "./pages/Cart";
+import NotFound from "./pages/NotFound";
 
 
 export const AppContext = createContext({
@@ -91,6 +92,9 @@ export default function App() {
             <Route path="/delivery" element={<Delivery />} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/cart" element={<Cart />} />
+
+
+            <Route path="*" element={<NotFound />}/>
           </Routes>
         </Layout>
       </AppContext.Provider>
