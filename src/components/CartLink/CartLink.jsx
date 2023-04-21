@@ -11,7 +11,9 @@ export default function CartLink() {
     return (
         <div className="CartLink">
             <Link to="/cart">
-                Cart ({total})
+                <div className="Together">
+            <img src="https://cdn-icons-png.flaticon.com/512/130/130298.png" alt="icon" className="cartIcon"/> <span>({ total})</span>
+            </div>
             </Link>
         </div>
     );
