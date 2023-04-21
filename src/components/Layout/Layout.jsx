@@ -12,8 +12,9 @@ export default function Layout(props) {
                
                 <Nav />
                 <Logo />
-                <CartLink/>
                 <Auth/>
+                <CartLink/>
+                
             </header>
 
             <main>
