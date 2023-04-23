@@ -17,13 +17,15 @@ export default function Layout(props) {
                 
             </header>
 
+            <main>
+                {props.children}
+            </main>
+
             <aside>
                 <CategoryList />
             </aside>
 
-            <main>
-                {props.children}
-            </main>
+           
           
 
             <footer>
