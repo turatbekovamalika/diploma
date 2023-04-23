@@ -5,10 +5,12 @@
     font-weight: 900;
     color: #ee8d84;
     font-size: 18px;
-    padding: 17px 20px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
 .CategoryList li {
-   list-style-type: none;
+    list-style-type: none;
     text-decoration: none;
    
 }
@@ -34,4 +36,12 @@
     height: 290px;
     border-radius: 5px;
     box-shadow: 0 0 10px 0px rgb(205, 105, 139);
+}
+
+.CategoryList .Category{
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+   
+    border-radius: 5px;
 }
