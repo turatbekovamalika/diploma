@@ -1,6 +1,5 @@
+.CategoryList ul li a {
 
-.CategoryList ul li a{
-  
     text-decoration: none;
     font-weight: 900;
     color: #c86960;
@@ -10,14 +9,15 @@
     margin: 10px;
 
 }
+
 .CategoryList li {
     list-style-type: none;
     text-decoration: none;
-   
+
 }
 
-.CategoryList ul a:hover{
-    color:#ec574a;
+.CategoryList ul a:hover {
+    color: #ec574a;
     transform: scale(1.1);
     transition: 0.5S;
 }
@@ -30,31 +30,33 @@
 }
 
 
-.CategoryList p{
-    color:#c86960;
+
+
+.CategoryList p {
+    color: #c86960;
     font-size: 20px;
     font-weight: 900;
     text-align: center;
 }
 
-.CategoryList img{
+.CategoryList img {
     width: 240px;
     height: 279px;
     border-radius: 5px;
     box-shadow: 0 0 10px 0px rgb(205, 105, 139);
 }
 
-.CategoryList img:hover{
-    transform : scale(0.90);
+.CategoryList img:hover {
+    transform: scale(0.90);
     transition: 0.5s;
     box-shadow: 0 0 19px 0px rgb(128, 60, 82);
 
 }
 
-.CategoryList .Category{
+.CategoryList .Category {
     display: flex;
     flex-direction: column;
     margin: 12px;
-   text-align: center;
+    text-align: center;
     border-radius: 5px;
 }
