@@ -1,5 +1,7 @@
 export default function About (){
     return(
-     <div>this is we</div>
+    <div className="About"> 
+     <p>this is we</p>
+     </div> 
     );
 }
