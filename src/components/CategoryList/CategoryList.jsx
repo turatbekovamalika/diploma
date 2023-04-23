@@ -8,6 +8,7 @@ import { AppContext } from "../../App";
 export default function CategoryList() {
     const { categories } = useContext(AppContext);
     categories.sort((a, b) => b.weight - a.weight)
+
     const output = categories.sort((a, b) => a.weight - b.weight).map(category => (
         <li className="Category" key={category.id}>
              <img src={category.picture} alt={category.name} />
@@ -19,8 +20,8 @@ export default function CategoryList() {
 
     return (
         <div className="CategoryList">
-            <ul>
-
+             <p>CATEGORY</p>
+            <ul>  
                 {output}
             </ul>
         </div>
