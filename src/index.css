@@ -6,15 +6,11 @@
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-
- 
- 
+  font-family: 'Poppins', sans-serif; 
 }
 
 .Home h1 {
   color: brown;
- 
   padding-left:  55px;
   padding-top: 25px;
 }
@@ -31,9 +27,7 @@ body {
   margin-top: -22px;
 }
 
-.Home img {
-  max-width: 959px;
-}
+
 
 .About p{
   color: red;
@@ -53,3 +47,7 @@ button:hover{
   background-color: rgb(157, 139, 139);
   color: rgb(60, 18, 32);
 }
+
+
+
+
