@@ -11,13 +11,34 @@ body {
 
 .Home h1 {
   color: brown;
-  padding-left:  55px;
-  padding-top: 25px;
+  padding-left:  70px;
+  padding-top: 55px;
 }
 
-.Home p{
+.Home-about {
   color: brown;
+  margin-top: 30px;
+  margin-left: 82px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  box-shadow: 0 0 10px 2px brown;
+  display: inline-block;
+  border-radius: 10px;
+  flex-wrap: wrap;
 }
+
+.Home-about:hover{
+  transform: scale(1.1);
+  transition: 0.5S;
+  box-shadow: 0 0 10px 1px rgb(138, 63, 88);
+}
+
+
+
+
+
 
 .Home {
   background-image: url(https://cdn.shopify.com/s/files/1/0662/4598/4498/collections/PLP-Imagery_Cosmetics_Collections_gloss-_-glow_Desktop_SP_opt-1_1920x549.webp?v=1677078719);
@@ -47,7 +68,5 @@ button:hover{
   background-color: rgb(157, 139, 139);
   color: rgb(60, 18, 32);
 }
-
-
 
 
