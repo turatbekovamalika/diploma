@@ -10,6 +10,16 @@ export default function Home() {
             <p>
                 We create only high-quality products so that you can empihasize your beauty
             </p>
+
+            
+               
+           
         </div>
+       
+       
+       
+        
     )
+
+   
 }
