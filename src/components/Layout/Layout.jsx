@@ -22,11 +22,12 @@ export default function Layout(props) {
 
             <main>
                 {props.children}
+                
             </main>
 
-            <aside>
-                <CategoryList />
-            </aside>
+            <aside> <CategoryList /></aside>
+
+          
 
 
 
