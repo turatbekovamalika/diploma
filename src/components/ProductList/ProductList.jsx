@@ -16,12 +16,12 @@ export default function ProductList({ category }) {
 
                 <Link className="About-product" to={"/product/" + product.path}>
 
-                    <div className="Ppp">
+                    <div className="Name-img">
                         <div className="Product-name">  {product.name}</div>
                         <img src={product.picture} alt={product.name} />
                     </div>
 
-                    <div className="Tried"> <p>{product.color}</p>
+                    <div className="Color-price"> <p>{product.color}</p>
                         <span>{product.price} $</span>
                     </div>
 
