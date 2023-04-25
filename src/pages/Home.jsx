@@ -38,8 +38,8 @@ export default function Home() {
             <div className="Trio-girl">
                 <div className="Row">
                     <div className="Col-5">
-                <p>choose <br /> the <br /> best <br /> !!!</p>
-                </div>
+                        <p>choose <br /> the <br /> best <br /> !!!</p>
+                    </div>
                 </div>
             </div>
 
