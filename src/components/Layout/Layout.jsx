@@ -25,7 +25,7 @@ export default function Layout(props) {
                 
             </main>
 
-           <aside> <CategoryList/> </aside>  
+           
          
           
 
