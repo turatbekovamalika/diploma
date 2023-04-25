@@ -69,4 +69,11 @@ button:hover{
   color: rgb(60, 18, 32);
 }
 
+.Home aside {
+  flex: 100% 0 0;
+  background-color: rgb(255, 250, 250);
+  display: flex;
+
+
+}
 
