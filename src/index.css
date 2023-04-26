@@ -94,9 +94,6 @@ body {
   box-shadow: 0 0 10px 1px rgb(138, 63, 88);
 }
 
-.About p {
-  color: red;
-}
 
 button {
   color: rgb(130, 56, 81);
@@ -168,10 +165,7 @@ button:hover {
   
 }
 
-
-
-
-.Home .Trio-girl {
+.Home .Lip-liner {
   background-image: url(https://cdn.shopify.com/s/files/1/0662/4598/4498/collections/PLP-Imagery_Cosmetics_Lips_lip-shine-lacquers_Desktop_SP_opt-1-min_1920x549.jpg?v=1675695474);
   background-size: cover;
   background-position: top left;
@@ -186,3 +180,4 @@ button:hover {
   line-height: 70px;
 
 }
+
