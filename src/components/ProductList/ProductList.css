@@ -1,18 +1,18 @@
-.ProductList .Product{
+.ProductList .Product {
     display: flex;
     flex-direction: column;
     max-width: 253px;
-   
+
     border-radius: 5px;
     margin: 20px;
 }
 
-.ProductList{
+.ProductList {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-  
+
 }
 
 .ProductList .Product img {
@@ -22,34 +22,33 @@
 
 }
 
-.ProductList .Product img:hover{
-  transform: scale(1.1);
-  transition: 0.5S;
-  box-shadow: 0 0 10px 1px rgb(138, 63, 88);
+.ProductList .Product img:hover {
+    transform: scale(1.1);
+    transition: 0.5S;
+    box-shadow: 0 0 10px 1px rgb(138, 63, 88);
+
 }
 
-.ProductList .Product span{
+.ProductList .Product span {
     color: rgb(130, 56, 81);
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.ProductList .Product .About-product{
+.ProductList .Product .About-product {
     color: rgb(130, 56, 81);
     text-decoration: none;
     font-size: 15px;
-    
+
 }
 
-.ProductList .Product p{
+.ProductList .Product p {
     font-weight: 600;
     color: rgb(130, 56, 81);
-   
+
 }
 
-
-
-.ProductList .Color-price{
+.ProductList .Color-price {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,35 +57,34 @@
     margin-top: -10px;
 }
 
-
-.Product .AddToCart button  {
+.Product .AddToCart button {
     color: rgb(130, 56, 81);
     background-color: rgb(200, 179, 179);
     display: flex;
     align-items: center;
-  
+
     margin-top: -10px;
-    margin-left: 75px ;
+    margin-left: 75px;
     margin-bottom: 10px;
 }
 
-.Product .AddToCart button:hover{
+.Product .AddToCart button:hover {
     background-color: rgb(157, 139, 139);
     color: rgb(60, 18, 32);
-  }
 
-.Product .Product-name{
+}
+
+.Product .Product-name {
     font-size: 18px;
 }
 
-.Name-img{
+.Name-img {
     position: relative;
 }
 
-.Product-name{
+.Product-name {
     position: absolute;
     left: 10px;
     top: 6px;
-    font-family:monospace
+    font-family: monospace
 }
-
