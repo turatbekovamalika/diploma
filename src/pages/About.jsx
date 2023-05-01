@@ -1,6 +1,7 @@
 import "./About.css"
 import mee from "../assets/mee.jpg";
 
+
 export default function About() {
     return (
         <div className="About">
@@ -22,6 +23,9 @@ export default function About() {
                 </div>
             </div>
             <p className="Photo-cosmetics">me</p>
+
+           
+
         </div>
 
     );
