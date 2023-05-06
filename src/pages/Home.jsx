@@ -9,8 +9,9 @@ export default function Home() {
                 <h1>Welcome to my beauty world</h1>
                 <div className="Home-about">
                     <p>
-                        " True beauty lies in pure and good heart
-                        <br /> but you can emphasize it thanks to my cosmetics."
+                        "True beauty lies in pure  and good  <br />
+                         heart but  you can emphasize it <br />
+                          thanks to my cosmetics."
                     </p>
                 </div>
             </div>
