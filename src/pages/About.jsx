@@ -1,5 +1,5 @@
 import "./About.css"
-import mee from "../assets/mee.jpg";
+import girl from "../assets/girl.png";
 
 
 export default function About() {
@@ -18,7 +18,7 @@ export default function About() {
                 </div>
                 <div className="Col-6">
                     <div className="About-me">
-                        <img src={mee} alt="" />
+                        <img src={girl} alt="" />
                     </div>
                 </div>
             </div>
