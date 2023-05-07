@@ -3,6 +3,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  
 }
 
 .Nav ul li a {
@@ -36,10 +37,10 @@
 }
 
 
-
 @media (max-width: 950px) {
   .Nav ul {
     flex-direction: column;
   }
 } 
+
 
