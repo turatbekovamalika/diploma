@@ -21,14 +21,17 @@ export default function CartList() {
     setCart(newCart);
   }
   
-
   const productIds = Object.keys(cart);
   const output = products
     .filter((product) => productIds.includes(product.id))
     .map((product) => (
       <div className="CartItem">
-        <img src={product.picture} alt={product.name} />
-        <Link to={"/product/" + product.slug}>{product.name}</Link>
+
+       <p><Link to={"/product/" + product.slug}>{product.name}</Link></p> 
+       <p className="Picture"> <img src={product.picture} alt={product.name} /></p>
+
+        <p className="InputButton">
+        
         <input
           type="number"
           min={1}
@@ -37,6 +40,7 @@ export default function CartList() {
         />
         <span>{product.price * cart[product.id]} $</span>
         <button onClick={() => onRemoveClick(product)}>Remove</button>
+        </p>
       </div>
     ));
 
