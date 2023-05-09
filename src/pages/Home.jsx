@@ -1,5 +1,6 @@
 import CategoryList from "../components/CategoryList/CategoryList";
 import Lips from "../assets/Lips.webp";
+import "./Home.css"
 
 export default function Home() {
     return (
@@ -7,7 +8,10 @@ export default function Home() {
 
 
             <div className="Kylie">
-                <h1>Welcome to my beauty world</h1>
+
+                <h1 className="Neon">Welcome to my beauty world</h1>
+               
+
                 <div className="Home-about">
                     <p>
                         "True beauty lies in pure  and good  <br />
@@ -39,16 +43,16 @@ export default function Home() {
 
             <div className="Lip-liner">
                 <div className="Row">
-                    
+
                 </div>
             </div>
 
             <div className="Lipcombo">
                 <div className="Row">
                     <div className="Col-6">
-                    <img className="Liips" src={Lips} alt="photo-lips" />
+                        <img className="Liips" src={Lips} alt="photo-lips" />
                     </div>
-                    
+
                     <div className="Col-6">
                         <p>my crème lipstick is a creamy, comfortable formula that delivers a color-rich, satin sheen finish. featuring a non-sticky and lightweight texture, it effortlessly glides on without feathering or settling into lip lines. this formula hydrates and moisturizes for 8 hours, leaving lips instantly soft.</p>
                     </div>
