@@ -27,4 +27,4 @@ export default function Category() {
             <ProductList category={category}/>
         </div>
     );
-}
+}               
