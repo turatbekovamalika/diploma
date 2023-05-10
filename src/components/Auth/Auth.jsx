@@ -18,7 +18,7 @@ export default function Auth() {
     output = (
       <span className="Back">
 
-     <Link to="/orders">{user.displayName}</Link> 
+     <Link className="Align" to="/orders">{user.displayName}</Link> 
             
         <button onClick={logOut}>back</button>
       </span>
