@@ -38,8 +38,7 @@
     transition: 0.5s;
 }
 .CategoryList img:hover {
-    transform: scale(0.90);
-   
+    transform: scale(0.90);   
     box-shadow: 0 0 19px 0px rgb(128, 60, 82);
 }
 

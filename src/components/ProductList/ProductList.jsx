@@ -30,9 +30,11 @@ export default function ProductList({ category }) {
                         <span>{product.price} $</span>
                     </div>
 
-                    <AddToCart product={product} />
-                    <DeleteProduct product={product} />
+                   
+                   
                 </Link>
+                <AddToCart product={product} />
+                <DeleteProduct product={product} />
             </div>
         ));
     return (
