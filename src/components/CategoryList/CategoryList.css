@@ -16,6 +16,8 @@
     transform: scale(1.1);
     transition: 0.5S;
 }
+
+
 .CategoryList ul {
     display: flex;
     justify-content: space-evenly;
@@ -33,12 +35,14 @@
     height: 259px;
     border-radius: 5px;
     box-shadow: 0 0 10px 0px rgb(205, 105, 139);
+    transition: 0.5s;
 }
 .CategoryList img:hover {
     transform: scale(0.90);
-    transition: 0.5s;
+   
     box-shadow: 0 0 19px 0px rgb(128, 60, 82);
 }
+
 .CategoryList .Category {
     display: flex;
     flex-direction: column;
