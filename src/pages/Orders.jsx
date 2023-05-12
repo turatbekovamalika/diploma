@@ -7,4 +7,4 @@ export default function Orders (){
            <OrderList/>
         </div>
     );
-}
+};

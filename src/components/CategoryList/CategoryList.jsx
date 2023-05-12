@@ -9,7 +9,6 @@ import DeleteCategory from "../DeleteCategory/DeleteCategory";
 export default function CategoryList() {
     const { categories } = useContext(AppContext);
     categories.sort((a, b) => b.weight - a.weight)
-
     const output = categories.sort((a, b) => a.weight - b.weight).map(category => (
         <li key={category.id}>
 
@@ -30,4 +29,4 @@ export default function CategoryList() {
             <AddCategory />
         </div>
     )
-}
+};

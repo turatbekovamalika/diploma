@@ -31,15 +31,14 @@ export default function ProductList({ category }) {
                     </div>
 
                     <AddToCart product={product} />
-                     <DeleteProduct product={product}/>
+                    <DeleteProduct product={product} />
                 </Link>
             </div>
         ));
-
     return (
         <div className="ProductList">
             {output}
-            <AddProduct  category={category}/>
+            <AddProduct category={category} />
         </div>
     )
 }

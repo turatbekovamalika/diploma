@@ -1,11 +1,11 @@
-.OrderForm form{
+.OrderForm form {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(230, 163, 163);
-    
 }
-.OrderForm input{
+
+.OrderForm input {
     background-color: rgb(255, 227, 237);
     border: 1px solid brown;
     border-radius: 10px;
@@ -13,25 +13,23 @@
     margin: 5px;
 }
 
-.OrderForm span{
+.OrderForm span {
     color: brown;
     display: block;
-    
 }
 
-.OrderForm h3{
+.OrderForm h3 {
     color: brown;
 }
 
-.OrderForm button{
+.OrderForm button {
     color: brown;
     margin-bottom: 50px;
     margin-top: 25px;
     padding: 5px 30px;
-    
 }
 
-.OrderForm img{
- border-radius: 50px;
- border: 1px solid brown;
+.OrderForm img {
+    border-radius: 50px;
+    border: 1px solid brown;
 }

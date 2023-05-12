@@ -20,26 +20,24 @@ export default function CartList() {
     delete newCart[product.id];
     setCart(newCart);
   }
-  
+
   const productIds = Object.keys(cart);
   const output = products
     .filter((product) => productIds.includes(product.id))
     .map((product) => (
       <div className="CartItem">
-
-       <p><Link to={"/product/" + product.slug}>{product.name}</Link></p> 
-       <p className="Picture"> <img src={product.picture} alt={product.name} /></p>
-
+        <p><Link to={"/product/" + product.slug}>{product.name}</Link></p>
+        <p className="Picture"> <img src={product.picture} alt={product.name} /></p>
         <p className="InputButton">
-        
-        <input
-          type="number"
-          min={1}
-          onChange={(event) => onQtyChange(product, +event.target.value)}
-          value={cart[product.id]}
-        />
-        <span>{product.price * cart[product.id]} $</span>
-        <button onClick={() => onRemoveClick(product)}>Remove</button>
+
+          <input
+            type="number"
+            min={1}
+            onChange={(event) => onQtyChange(product, +event.target.value)}
+            value={cart[product.id]}
+          />
+          <span>{product.price * cart[product.id]} $</span>
+          <button onClick={() => onRemoveClick(product)}>Remove</button>
         </p>
       </div>
     ));

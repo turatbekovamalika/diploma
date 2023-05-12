@@ -1,23 +1,24 @@
 .NavToggle {
-    display: none;
-    padding: 0;
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-  }
-  .NavToggle .line {
-    width: 25px;
-    height: 3px;
-    margin: 5px;
-    background-color: #b91f61;
-  }
-  
-  .NavToggle:hover{
-    background-color: #e5a2a2;
-  }
+  display: none;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
 
-  @media (max-width: 950px) {
-    .NavToggle {
-      display: inline-block;
-    }
+.NavToggle .line {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: #b91f61;
+}
+
+.NavToggle:hover {
+  background-color: #e5a2a2;
+}
+
+@media (max-width: 950px) {
+  .NavToggle {
+    display: inline-block;
   }
+}

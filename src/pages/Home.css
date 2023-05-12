@@ -99,7 +99,6 @@ button:hover {
 .Home .Col-6 p:hover {
     transform: scale(1.1);
     transition: 0.5S;
-
 }
 
 .Home .Lip-liner {
@@ -157,7 +156,6 @@ button:hover {
     }
 }
 ;
-
 @media screen and (max-width: 598px) {
     .Home .Kylie .Neon h1 {
         color: rgb(156, 63, 63);

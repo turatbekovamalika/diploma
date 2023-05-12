@@ -1,20 +1,19 @@
-.Sign-in button{
+.Sign-in button {
     padding: 2px 7px;
     font-size: 15px;
     font-weight: 500;
-    
     margin-top: 5px;
     margin-left: 21px;
     border: none;
     border-left: 3px solid #c48989;
-    border-right: 3px solid #c48989 ;
+    border-right: 3px solid #c48989;
     background-color: transparent;
 }
 
-.Sign-in button:hover{
-    background-color: #cb9591 ;
+.Sign-in button:hover {
+    background-color: #cb9591;
     color: rgb(251, 246, 246);
-   
+
 }
 
 .Back button {
@@ -24,23 +23,21 @@
     padding-right: 35px;
     border: none;
     font-size: 15px;
-    border-top: 3px solid  #c48989 ;
-    border-bottom: 3px solid  #c48989 ;
+    border-top: 3px solid #c48989;
+    border-bottom: 3px solid #c48989;
 }
 
-
-
-.Back button:hover{
-  background-color: #c48989;
-  color: aliceblue;
+.Back button:hover {
+    background-color: #c48989;
+    color: aliceblue;
 }
-
 
 .Auth a {
     text-decoration: none;
     color: rgb(129, 34, 34);
     font-size: 15px;
 }
-.Link .Align{
+
+.Link .Align {
     text-align: center;
 }

@@ -1,18 +1,5 @@
-import { NavLink } from 'react-router-dom';
-import { useContext } from "react";
-import { AppContext } from "../../App";
 import './Footer.css';
-
 function Footer() {
-    const { categories } = useContext(AppContext);
-
-    const output = categories.map((category) => (
-        <li key={category.id}>
-            <NavLink to={`/categories/${category.slug}`}>
-                <span>{category.name}</span>
-            </NavLink>
-        </li>
-    ));
     return (
         <footer className="footer">
             <div className="footer-column">
@@ -30,25 +17,21 @@ function Footer() {
                 </div>
             </div>
             <div className="footer-container">
-               <div className="contacts">
-              <a href="#">contact us</a>
-              <a href="#">faq</a>
-              <a href="#">shipping</a>
-              <a href="#">order tracking</a>
-              </div> 
+                <div className="contacts">
+                    <a href="#">contact us</a>
+                    <a href="#">faq</a>
+                    <a href="#">shipping</a>
+                    <a href="#">order tracking</a>
+                </div>
+                <div className="privacy">
+                    <a href="#">privacy policy</a>
+                    <a href="#">terms</a>
+                    <a href="#">accessibility</a>
+                    <a href="#">cookie settings</a>
+                    <a href="#">cookie policy</a>
+                </div>
+                <p className="coty">© 2023 coty operations</p>
 
-
-              <div className="privacy">
-              <a href="#">privacy policy</a>
-              <a href="#">terms</a>
-              <a href="#">accessibility</a>
-              <a href="#">cookie settings</a>
-              <a href="#">cookie policy</a> 
-
-                         
-              </div> 
-              <p className="coty">© 2023 coty operations</p> 
-               
             </div>
         </footer>
     );

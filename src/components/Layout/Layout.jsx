@@ -8,10 +8,8 @@ import NavToggle from "../NavToggle/NavToggle";
 import "./Layout.css";
 import Logo from "../Logo/Logo";
 import Footer from "../Footer/Footer";
-
 export default function Layout(props) {
     const [drawerOpen, setDrawerOpen] = useState(false);
-
     function toggleDrawer() {
         setDrawerOpen(!drawerOpen);
     }
@@ -19,26 +17,21 @@ export default function Layout(props) {
     return (
         <div className="Layout">
             <header>
-              <Logo />
+                <Logo />
                 <Nav />
                 <NavToggle callback={toggleDrawer} />
                 <Drawer open={drawerOpen} toggle={toggleDrawer} />
-
                 <div className="Logo-cart">
-                <CartLink />
+                    <CartLink />
                     <Auth />
                 </div>
             </header>
-
-
             <main>
                 {props.children}
-
             </main>
             <footer>
-                <Footer/>
+                <Footer />
             </footer>
-
         </div>
     )
 }

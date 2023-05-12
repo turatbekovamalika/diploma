@@ -1,11 +1,9 @@
 .About-me img {
     margin: 60px;
     width: 350px;
-   margin-top: 95px;
-   
+    margin-top: 95px;
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 
@@ -14,7 +12,6 @@
     color: rgb(138, 63, 88);
     margin-top: 45px;
     text-shadow: 0 0 10px #f2c9c9, 0 0 20px #faecec, 0 0 30px #f4bdbd, 0 0 40px #edcfcf, 0 0 50px #ffb6e2;
-  
 }
 
 .About .Col-6 p {
@@ -37,15 +34,14 @@
     color: transparent;
 }
 
- @media (max-width: 750px) {
-    .About-me img{
+@media (max-width: 750px) {
+    .About-me img {
         margin: 10px;
-    }   
-    .About-me img:hover{
+    }
+
+    .About-me img:hover {
         transform: none;
         transition: none;
     }
 
-  }
-
-
+}

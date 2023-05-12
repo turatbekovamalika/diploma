@@ -23,11 +23,6 @@ export default function About() {
                 </div>
             </div>
             <p className="Photo-cosmetics">me</p>
-            
-            
-           
-
         </div>
-
     );
-}
+};

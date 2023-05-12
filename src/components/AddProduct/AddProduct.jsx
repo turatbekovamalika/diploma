@@ -8,7 +8,7 @@ export default function AddProduct({ category }) {
   const [name, setName] = useState("");
 
   const [color, setColor] = useState("");
-  const [description, setDescription ] = useState("");
+  const [description, setDescription] = useState("");
 
   const [price, setPrice] = useState(0);
   const [picture, setPicture] = useState(null);
@@ -49,7 +49,7 @@ export default function AddProduct({ category }) {
         addDoc(productCollection, {
           category: category.id,
           name: name,
-          color: color, 
+          color: color,
           price: Number(price),
           picture: pictureUrl,
           path: name.replaceAll(" ", "-").toLowerCase(),
@@ -92,7 +92,7 @@ export default function AddProduct({ category }) {
             required
           />
         </label>
-        
+
         <label>
           Description:
           <textarea
@@ -103,8 +103,6 @@ export default function AddProduct({ category }) {
             required
           />
         </label>
-
-
 
         <label>
           Price:

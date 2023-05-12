@@ -18,12 +18,11 @@ export default function Auth() {
     output = (
       <span className="Back">
 
-     <Link className="Align" to="/orders">{user.displayName}</Link> 
-            
+        <Link className="Align" to="/orders">{user.displayName}</Link>
+
         <button onClick={logOut}>back</button>
       </span>
     );
   }
-
   return <div className="Auth">{output}</div>;
 }
