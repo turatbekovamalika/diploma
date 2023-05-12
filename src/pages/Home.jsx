@@ -5,10 +5,7 @@ import "./Home.css"
 export default function Home() {
     return (
         <div className="Home">
-
-
             <div className="Kylie">
-
                 <h1 className="Neon">Welcome to my beauty world</h1>
                
 
@@ -43,20 +40,11 @@ export default function Home() {
 
             <div className="Lip-liner">
                 <div className="Row">
-
                 </div>
             </div>
 
-            <div className="Lipcombo">
-                <div className="Row">
-                    <div className="Col-6">
-                        <img className="Liips" src={Lips} alt="photo-lips" />
-                    </div>
-
-                    <div className="Col-6">
-                        <p>my crème lipstick is a creamy, comfortable formula that delivers a color-rich, satin sheen finish. featuring a non-sticky and lightweight texture, it effortlessly glides on without feathering or settling into lip lines. this formula hydrates and moisturizes for 8 hours, leaving lips instantly soft.</p>
-                    </div>
-                </div>
+            <div className="Choose">
+            Choose the best 
             </div>
 
 
