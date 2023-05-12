@@ -20,7 +20,7 @@ export default function Auth() {
 
         <Link className="Align" to="/orders">{user.displayName}</Link>
 
-        <button onClick={logOut}>back</button>
+        <button onClick={logOut}>sign out</button>
       </span>
     );
   }
