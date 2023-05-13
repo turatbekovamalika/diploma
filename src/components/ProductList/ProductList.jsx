@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import AddToCart from "../AddToCart/AddToCart";
 import AddProduct from "../AddProduct/AddProduct";
 import DeleteProduct from "../DeleteProduct/DeleteProduct";
+import CategoryList from "../CategoryList/CategoryList";
 
 export default function ProductList({ category }) {
     const { products } = useContext(AppContext);
@@ -17,6 +18,7 @@ export default function ProductList({ category }) {
     const output = products
         .filter(product => product.category === category.id)
         .map(product => (
+            
             <div className="Product" key={product.id}>
 
                 <Link className="About-product" to={"/product/" + product.path}>
@@ -28,10 +30,7 @@ export default function ProductList({ category }) {
 
                     <div className="Color-price"> <p>{product.color}</p>
                         <span>{product.price} $</span>
-                    </div>
-
-                   
-                   
+                    </div>        
                 </Link>
                 <AddToCart product={product} />
                 <DeleteProduct product={product} />
@@ -39,6 +38,7 @@ export default function ProductList({ category }) {
         ));
     return (
         <div className="ProductList">
+             
             {output}
             <AddProduct category={category} />
         </div>
