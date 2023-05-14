@@ -80,8 +80,8 @@ button:hover {
     text-align: center;
 }
 
-.Cart h1{
-    display: none; 
+.Cart h1 {
+    display: none;
 }
 
 .NotFound {
@@ -138,10 +138,10 @@ button:hover {
     animation: Neon 1s ease-in-out infinite alternate;
 }
 
-.Home .Choose{
+.Home .Choose {
     text-align: center;
     font-size: 30px;
-    font-family:cursive;
+    font-family: cursive;
     color: brown;
     padding: 55px;
 }
@@ -158,12 +158,13 @@ button:hover {
 
 @media screen and (max-width: 700px) {
     .Home h1 {
-       
+
         padding-left: 58px;
         padding-top: 35px;
         font-size: 21px;
     }
+
     .Home-about {
-       display: none;
+        display: none;
     }
 }
