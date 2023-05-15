@@ -1,5 +1,5 @@
 import CategoryList from "../components/CategoryList/CategoryList";
-import Lips from "../assets/Lips.webp";
+
 import "./Home.css"
 
 export default function Home() {

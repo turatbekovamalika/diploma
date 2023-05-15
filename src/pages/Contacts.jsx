@@ -28,5 +28,8 @@ export default function Contacts() {
             <p><strong>Our email  : </strong>cosmetics_store_by_ajarrra @gmail.com </p>
             <p>we work from  <strong> 8 a.m </strong>to <strong>10 p.m</strong> </p>
         </div>
+                
+
     )
 }
+
