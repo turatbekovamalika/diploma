@@ -11,13 +11,13 @@ export default function ProductList({ category }) {
     const { categories } = useContext(AppContext);
 
     const outputt = categories.map((category) => (
-      <li key={category.id}>
-        <NavLink to={`/category/${category.path}`}>
-          <span>{category.name}</span>
-        </NavLink>
-      </li>
+        <li key={category.id}>
+            <NavLink to={`/category/${category.path}`}>
+                <span>{category.name}</span>
+            </NavLink>
+        </li>
     ));
-  
+
 
     const { products } = useContext(AppContext);
     products.sort((a, b) => {
@@ -26,13 +26,13 @@ export default function ProductList({ category }) {
         return weightB - weightA;
     })
 
-    
+
 
     const output = products
         .filter(product => product.category === category.id)
         .map(product => (
-           
-            
+
+
             <div className="Product" key={product.id}>
                 <Link className="About-product" to={"/product/" + product.path}>
 
@@ -43,23 +43,21 @@ export default function ProductList({ category }) {
 
                     <div className="Color-price"> <p>{product.color}</p>
                         <span>{product.price} $</span>
-                    </div>        
+                    </div>
                 </Link>
                 <AddToCart product={product} />
                 <DeleteProduct product={product} />
             </div>
         ));
     return (
-     
+
         <div className="ProductList">
-           
-       <div className="Categoryyy"> 
-        {outputt}  </div>   
-
+            <div className="Categoryyy">
+                {outputt}  </div>
+                
             <div className="productlist2">{output}</div>
-  
-            <AddProduct category={category} />
 
+            <AddProduct category={category} />
         </div>
     )
 }
