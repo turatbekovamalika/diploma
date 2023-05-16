@@ -22,7 +22,7 @@
 
 .ProductList .Product img:hover {
     transform: scale(1.1);
-   
+
     box-shadow: 0 0 10px 1px rgb(138, 63, 88);
 }
 
@@ -82,9 +82,19 @@
     font-family: monospace
 }
 
-.Categoryyy   {
-   color: gold;
-   text-decoration: none;
-   list-style-type: none;
-  
+.Category .Categoryyy  {
+    color: red;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    background-color: aqua;
+}
+
+.productlist2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 59px;
 }
