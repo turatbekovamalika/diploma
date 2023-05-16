@@ -5,14 +5,14 @@ import { Link, NavLink } from "react-router-dom";
 import AddToCart from "../AddToCart/AddToCart";
 import AddProduct from "../AddProduct/AddProduct";
 import DeleteProduct from "../DeleteProduct/DeleteProduct";
-import CategoryList from "../CategoryList/CategoryList";
+
 
 export default function ProductList({ category }) {
     const { categories } = useContext(AppContext);
 
     const outputt = categories.map((category) => (
       <li key={category.id}>
-        <NavLink to={`/categories/${category.slug}`}>
+        <NavLink to={`/category/${category.path}`}>
           <span>{category.name}</span>
         </NavLink>
       </li>
@@ -53,10 +53,10 @@ export default function ProductList({ category }) {
      
         <div className="ProductList">
            
-           <ul className="Categoryyy"> 
-        {outputt}  </ul>   
+       <div className="Categoryyy"> 
+        {outputt}  </div>   
 
-            {output}
+            <div className="productlist2">{output}</div>
   
             <AddProduct category={category} />
 
