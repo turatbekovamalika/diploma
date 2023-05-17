@@ -53,7 +53,7 @@
 }
 
 .Product .AddToCart button {
-    color:  rgb(245, 235, 238);
+    color: rgb(245, 235, 238);
     background-color: rgb(201, 129, 153);
     display: flex;
     align-items: center;
@@ -65,13 +65,15 @@
 }
 
 .Product .AddToCart button:hover {
-    background-color:  rgb(223, 169, 187);
-    box-shadow: 0 8px rgb(186, 136, 153);  
+    background-color: rgb(223, 169, 187);
+    box-shadow: 0 8px rgb(186, 136, 153);
 }
-.Product .AddToCart button:active{
-   
-    box-shadow: 0 6px  rgb(158, 100, 119);
-    transform: translateY(4px); background-color:  rgb(201, 129, 153);
+
+.Product .AddToCart button:active {
+
+    box-shadow: 0 6px rgb(158, 100, 119);
+    transform: translateY(4px);
+    background-color: rgb(201, 129, 153);
 
 }
 
@@ -91,13 +93,18 @@
     font-family: monospace
 }
 
-.Category .Categoryyy  {
-    color: red;
-    text-decoration: none;
+.Categoryyy span {
+    color: rgb(177, 103, 103);
     list-style-type: none;
+    margin: 25px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.ProductList .Categoryyy {
+    text-decoration: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    list-style-type: none;
 
 }
 
