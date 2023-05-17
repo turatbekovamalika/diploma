@@ -8,12 +8,14 @@
     border-left: 3px solid #c48989;
     border-right: 3px solid #c48989;
     background-color: transparent;
+    transition: 0.5S;
+    cursor: pointer;
 }
 
 .Sign-in button:hover {
     background-color: #cb9591;
     color: rgb(251, 246, 246);
-
+    transition: 0.5S;
 }
 
 .Back button {
@@ -25,11 +27,14 @@
     font-size: 15px;
     border-top: 3px solid #c48989;
     border-bottom: 3px solid #c48989;
+    transition: 0.5S;
+    cursor: pointer;
 }
 
 .Back button:hover {
     background-color: #c48989;
     color: aliceblue;
+    transition: 0.5S;
 }
 
 .Auth a {
