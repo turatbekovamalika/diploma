@@ -1,4 +1,5 @@
 import CategoryList from "../components/CategoryList/CategoryList";
+import ProductList from "../components/ProductList/ProductList";
 
 import "./Home.css"
 
@@ -33,6 +34,7 @@ export default function Home() {
                 <div className="Row">
                 </div>
             </div>
+
             <div className="Choose">
                 Choose the best
             </div>
