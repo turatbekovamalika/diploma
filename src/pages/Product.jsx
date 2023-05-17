@@ -28,7 +28,7 @@ export default function Product() {
       <h1>{product.name}</h1>
       <div className="Picture-des">
 
-        <img src={product.picture} alt={product.name} />
+        <img width={250} height={250} src={product.picture} alt={product.name} />
         <div className="Des-price-button">
         <p>{product.description}</p>
         <div className="Price-button">
