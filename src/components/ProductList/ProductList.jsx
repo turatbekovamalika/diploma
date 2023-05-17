@@ -54,10 +54,10 @@ export default function ProductList({ category }) {
         <div className="ProductList">
             <div className="Categoryyy">
                 {outputt}  </div>
-                
+
             <div className="productlist2">{output}</div>
 
             <AddProduct category={category} />
         </div>
-    )
-}
+    );
+};
