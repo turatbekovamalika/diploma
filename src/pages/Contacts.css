@@ -17,7 +17,7 @@
 .Contacts .Col-3:hover {
     transform: scale(1.1);
     transition: 0.5S;
-   
+
 }
 
 .Contacts h1 {
@@ -31,6 +31,21 @@
     font-size: 17px;
 }
 
+.Tel {
+    text-align: center;
+    color: brown;
+    font-size: 18px;
+    transition: 0.5;
+    text-decoration: none;
+}
+
+.Email {
+    text-align: center;
+    color: brown;
+    font-size: 18px;
+    transition: 0.5;
+    text-decoration: none;
+}
 
 @media (max-width: 750px) {
     .Eyes {
@@ -39,7 +54,7 @@
         display: flex;
     }
 
-    .Contacts .Col-3 {
+    .Tel .Col-3 {
         font-size: 15px;
         line-height: 18px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -70,10 +85,11 @@
 
     }
 
-    .Contacts p {
+    .Tel {
         text-align: center;
         color: brown;
         font-size: 10px;
+
     }
 
 
