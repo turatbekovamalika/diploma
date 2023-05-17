@@ -8,7 +8,7 @@ export default function Contacts() {
             <div className="Row">
                 <div className="Col-3">
                     Our contacts: <br />
-                    +996 555 27 09 04 <br />
+                     +996 555 27 09 04 <br />
                     +996 855 47 06 03 <br />
                     +996 645 75 07 22 <br />
                     +996 555 27 09 04
