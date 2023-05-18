@@ -57,6 +57,10 @@
   font-size: 18px;
 }
 
+.contacts a:hover{
+  color: #e61d96;
+}
+
 .privacy {
   display: flex;
   justify-content: space-evenly;
@@ -68,6 +72,10 @@
 .privacy a {
   color: white;
   font-size: 15px;
+}
+
+.privacy a:hover{
+  color: #d85aa5;
 }
 
 .coty {
@@ -95,6 +103,10 @@
     text-decoration: none;
     font-size: 13px;
   }
+  .contacts a:hover{
+    color: #e869b5;
+  } 
+
 
   .privacy {
     display: flex;
