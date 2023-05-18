@@ -12,12 +12,18 @@
     text-align: center;
     transition: 0.5S;
     cursor: pointer;
+    
 }
 
 .Contacts .Col-3:hover {
     transform: scale(1.1);
     transition: 0.5S;
+   
+}
 
+a:hover{
+    color: rgb(251, 25, 25);
+    transition: 0.5S;
 }
 
 .Contacts h1 {
@@ -76,6 +82,7 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: rgb(156, 73, 73);
         text-align: center;
+        flex: 100% 0 0;
     }
 
     .Contacts h1 {
