@@ -106,8 +106,6 @@
   .contacts a:hover{
     color: #e869b5;
   } 
-
-
   .privacy {
     display: flex;
     justify-content: space-evenly;
@@ -115,20 +113,16 @@
     color: #e869b5;
 
   }
-
   .privacy a {
     color: white;
     font-size: 12px;
   }
-
   .coty {
     color: white;
     text-align: center;
     font-size: 10px;
     margin-top: 25px;
   }
-
-
 }
 
 @media screen and (max-width: 540px) {
