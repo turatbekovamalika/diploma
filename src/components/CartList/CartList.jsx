@@ -4,6 +4,8 @@ import { AppContext } from "../../App";
 import { Link } from "react-router-dom";
 import "./CartList.css";
 
+import musorkaa from "../../assets/musorkaa.png";
+
 
 
 export default function CartList() {
@@ -30,7 +32,7 @@ export default function CartList() {
       <div className="CartItem">
 
         <p className="Picture"> <img src={product.picture} alt={product.name} /></p>
-        <p><Link to={"/product/" + product.slug}>{product.name}</Link></p>
+        <p className="ProductSlug"><Link to={"/product/" + product.slug}>{product.name}</Link></p>
         <input
           type="number"
           min={1}
@@ -39,7 +41,7 @@ export default function CartList() {
         />
         <span>{product.price * cart[product.id]} $</span>
 
-        <img className="Delete_icon" onClick={() => onRemoveClick(product)} src="src/assets/musorkaa.png" />
+        <img className="Delete_icon" onClick={() => onRemoveClick(product)} src={musorkaa}  alt="remove"/>
       </div>
     ));
 

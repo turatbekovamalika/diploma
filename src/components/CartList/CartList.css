@@ -57,6 +57,10 @@
     font-size: 20px;
 }
 
+.ProductSlug{
+    max-width:50px;
+}
+
 .InputButton button{
   margin-left: 20px; 
   color: white; 
