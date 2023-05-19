@@ -14,10 +14,17 @@
     flex-wrap: wrap;
     box-shadow: 10px 5px 5px 5px rgb(240, 227, 227);
     background-color:white;
+    
 }
 
 .CartList .CartItem img {
     width: 150px;
+}
+
+
+ .Delete_icon {
+  max-width: 70px;
+  margin-top: 0px;
 }
 
 

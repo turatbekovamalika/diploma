@@ -4,6 +4,8 @@ import { AppContext } from "../../App";
 import { Link } from "react-router-dom";
 import "./CartList.css";
 
+
+
 export default function CartList() {
   // получить продукты и содердижимое корзины
   const { products, cart, setCart } = useContext(AppContext);
@@ -26,20 +28,18 @@ export default function CartList() {
     .filter((product) => productIds.includes(product.id))
     .map((product) => (
       <div className="CartItem">
-       
+
         <p className="Picture"> <img src={product.picture} alt={product.name} /></p>
         <p><Link to={"/product/" + product.slug}>{product.name}</Link></p>
-        <p className="InputButton">
+        <input
+          type="number"
+          min={1}
+          onChange={(event) => onQtyChange(product, +event.target.value)}
+          value={cart[product.id]}
+        />
+        <span>{product.price * cart[product.id]} $</span>
 
-          <input
-            type="number"
-            min={1}
-            onChange={(event) => onQtyChange(product, +event.target.value)}
-            value={cart[product.id]}
-          />
-          <span>{product.price * cart[product.id]} $</span>
-          <button  onClick={() => onRemoveClick(product)}>Remove</button>
-        </p>
+        <img className="Delete_icon" onClick={() => onRemoveClick(product)} src="src/assets/musorkaa.png" />
       </div>
     ));
 
