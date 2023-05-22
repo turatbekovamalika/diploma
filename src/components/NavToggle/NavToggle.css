@@ -4,13 +4,18 @@
   cursor: pointer;
   background-color: transparent;
   border: none;
+  margin-top: 15px;
+  margin-left: 28px; 
+  transition: 0.4s; 
 }
 
 .NavToggle .line {
   width: 25px;
   height: 3px;
   margin: 5px;
+  
   background-color: #b91f61;
+  border-radius: 50%;
 }
 
 .NavToggle:hover {
