@@ -1,16 +1,15 @@
 .Nav ul {
   display: flex;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 
 }
 
 .Nav ul li a {
   color: #7B241C;
   display: block;
-  padding: 15px;
-  margin-left: 55px;
+  padding: 15px 30px;
+ 
+  margin-left: 50px;
   font-weight: 700;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-decoration: none;
@@ -25,6 +24,7 @@
   -webkit-transition: ease-out 0.5s;
   -moz-transition: ease-out 0.2s;
   transition: ease-out 0.5s;
+  
 }
 
 .Nav ul li a:hover {
@@ -32,6 +32,10 @@
 
 }
 
+.Nav{
+  padding: 10px;
+  
+}
 @media (max-width: 950px) {
   .Nav ul {
     flex-direction: column;
