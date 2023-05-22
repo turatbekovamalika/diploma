@@ -31,8 +31,8 @@ export default function ProductList({ category }) {
     const output = products
         .filter(product => product.category === category.id)
         .map(product => (
-
-
+        
+            <div className="Container">
             <div className="Product" key={product.id}>
                 <Link className="About-product" to={"/product/" + product.path}>
 
@@ -48,16 +48,19 @@ export default function ProductList({ category }) {
                 <AddToCart product={product} />
                 <DeleteProduct product={product} />
             </div>
+            </div>
         ));
     return (
-
+        <div className="Container">
         <div className="ProductList">
+            
             <div className="Categoryyy">
                 {outputt}  </div>
 
             <div className="productlist2">{output}</div>
 
             <AddProduct category={category} />
+            </div>
         </div>
     );
 };
