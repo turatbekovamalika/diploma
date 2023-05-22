@@ -21,7 +21,8 @@ export default function Product() {
 
 
  
-  return (    
+   return (  
+    <div className="Container">
     <div className="Productt">
  
 
@@ -37,6 +38,7 @@ export default function Product() {
         </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -4,7 +4,9 @@ import girl from "../assets/girl.png";
 
 export default function About() {
     return (
+    
         <div className="About">
+            <div className="Container">
             <div className="Row">
                 <div className="Col-6">
                     <h1>ABOUT US</h1>
@@ -22,7 +24,9 @@ export default function About() {
                     </div>
                 </div>
             </div>
+            </div>
             <p className="Photo-cosmetics">me</p>
+            
         </div>
     );
 };

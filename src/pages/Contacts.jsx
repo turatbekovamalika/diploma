@@ -3,7 +3,10 @@ import "./Contacts.css"
 
 export default function Contacts() {
     return (
+
+        <div className="Container">
         <div className="Contacts">
+           
             <h1>How can you contact us???</h1>
             <div className="Row">
                 <div className="Col-3">
@@ -29,11 +32,11 @@ export default function Contacts() {
 ">101 Cosmetics street, 5th house</a></p>
 
             <p><strong>Our email: </strong><a className="Email" target="_blank" rel="noreferrer" href="mailto:ajarka1334@gmail.com">
-                 cosmetics_01_@gmail.com</a></p>
+                cosmetics_01_@gmail.com</a></p>
 
             <p>we work from  <strong> 8 a.m </strong>to <strong>10 p.m</strong> </p>
         </div>
-
+</div>
 
     )
 }

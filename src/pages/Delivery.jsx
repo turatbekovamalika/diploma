@@ -2,7 +2,9 @@ import "./Delivery.css"
 
 export default function Delivery() {
     return (
+        <div className="Container">
         <div className="Delivery">
+
             <h1>how can you arrange delivery?</h1>
             <div className="Row">
                 <div className="Col-4">
@@ -41,7 +43,7 @@ export default function Delivery() {
                 </p>
                 <div className="HaveNiceDay"> HAVE A NICE DAYI!</div>
 
-
+                </div>
             </div>
         </div>
     )
