@@ -94,11 +94,16 @@
     background-color: transparent;
     box-shadow: none;
   }
+ 
+  
+
   
   @media (max-width: 650px) {
     .Nav ul {
       flex-direction: column;
     }
+ 
+
   } 
  
 }
