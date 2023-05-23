@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
- 
+
 }
 
 .Row {
@@ -75,11 +75,39 @@ body {
   color: brown;
 }
 
-.NotFound{
+.NotFound {
   text-align: center;
   color: brown;
-  
+
 }
 
 
 
+.DeleteProduct  {
+  transition: 0.5s;
+  background-color: transparent;
+  border: none;
+ font-size: 35px;
+  cursor: pointer;
+
+}
+
+.DeleteProduct:hover{
+  background-color: transparent;
+  transform: rotate(360deg);
+ 
+}
+
+.DeleteCategory{
+  transition: 0.5s;
+  background-color: transparent;
+  border: none;
+ font-size: 35px;
+  cursor: pointer;
+  margin-left: 110px;
+}
+
+.DeleteCategory:hover{
+  background-color: transparent;
+  transform: rotate(360deg);
+}
