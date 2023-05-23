@@ -31,13 +31,13 @@ export default function CartList() {
     .filter((product) => productIds.includes(product.id))
     
     .map((product) => (
-     
+      <div className="Container">    
       <div className="CartItem">
  
         <p className="Picture"> <img src={product.picture} alt={product.name} /></p>
-        <p className="ProductSlug">
-        <Link to={`/products/` + product.slug}> {product.name}</Link>
-        </p>
+        
+        <Link className="ProductSlug" to={`/products/` + product.slug}> {product.name}</Link>
+
 
 
         <input
@@ -49,11 +49,11 @@ export default function CartList() {
 
 
         
-        <span>{product.price * cart[product.id]} $</span>
+        <span className="Product_price" >{product.price * cart[product.id]} $</span>
 
         <img className="Delete_icon" onClick={() => onRemoveClick(product)} src={musorkaa}  alt="remove"/>
         </div>
-     
+        </div>
     ));
 
   return <div className="CartList">{output}</div>;
