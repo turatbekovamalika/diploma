@@ -10,6 +10,7 @@ export default function Home() {
 
        
             <div className="Kylie">
+            <div className="Container">
             <h1 className="Neon">Welcome to my beauty world</h1>         
               
                 <div className="Home-about">
@@ -19,6 +20,7 @@ export default function Home() {
                         thanks to my cosmetics."
                     </p>
                 </div>
+                </div>
             </div>
            
             <aside> 
@@ -27,9 +29,11 @@ export default function Home() {
                 </div>
                  </aside>
             <div className="Kylie-lips">
+            <div className="Container">
                 <p>
                     the best products <br /> only with us
                 </p>
+                </div>
             </div>
             <div className="Row">
             <div className="Container">
