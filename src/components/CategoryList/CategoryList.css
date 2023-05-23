@@ -25,10 +25,11 @@
 }
 .CategoryList p {
     color: #c86960;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 900;
     text-align: center;
     margin-top: 45px;
+  
 }
 .CategoryList img {
     width: 220px;
