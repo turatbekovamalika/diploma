@@ -1,6 +1,6 @@
 .CartList {
     flex-wrap: wrap;
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .CartList .CartItem {
@@ -14,11 +14,12 @@
     flex-wrap: wrap;
     box-shadow: 10px 5px 5px 5px rgb(240, 227, 227);
     background-color:white;
-    
+    transition: 0.5s;
 }
 
 .CartList .CartItem img {
     width: 150px;
+    
 }
 
 
@@ -38,7 +39,7 @@
     margin-right: 25px;
     background-color:transparent;
     margin-bottom: 40px;
-    width: 11%;
+    width: 20%;
    
 }
 
@@ -48,6 +49,7 @@
     text-decoration: none;
     font-size: 18px;
     text-align: center;
+    width: 20%;
 }
 
 .CartList span {
@@ -56,10 +58,12 @@
     font-weight: 700;
     margin-right: 20px;
     font-size: 20px;
+    width: 5%;
 }
 
 .ProductSlug{
-    max-width: 80px;
+    max-width:  20px;
+  
 }
 
 .InputButton button{
@@ -76,6 +80,25 @@
 }
 
 .CartItem input{
-    max-width: 35px;
+    max-width: 50px;
+    outline: none;
+    cursor: pointer;
+    color: brown;
+    font-size: 14px;
+    max-width: 5%;
 }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+opacity: 1;
+
+}
+
+
+
+
+
+
+
+
 
