@@ -18,7 +18,7 @@ export default function Layout(props) {
         <div className="Layout">
             
             < header>
-         
+            <div className="Container">
                 <Logo />
                 <Nav />
                 
@@ -28,7 +28,7 @@ export default function Layout(props) {
                     <CartLink />
                     <Auth />
                 </div>
-            
+            </div>
             </header>
             <main>
                 
