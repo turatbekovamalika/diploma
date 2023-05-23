@@ -2,6 +2,7 @@ import { addDoc } from "firebase/firestore";
 import { useContext, useState } from "react";
 import { categoryCollection } from "../../firebase";
 import { AppContext } from "../../App";
+import "./AddCategory.css";
 
 const AddCategory = () => {
   const { user } = useContext(AppContext);
@@ -41,6 +42,7 @@ const AddCategory = () => {
 
   return (
     <div className="AddCategory">
+
       <input
         size="15"
         type="text"
@@ -50,6 +52,7 @@ const AddCategory = () => {
       />
       <button onClick={onAddCategory} disabled={isSubmitting}>+</button>
     </div>
+
   );
 };
 
