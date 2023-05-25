@@ -14,7 +14,7 @@
     color: brown;
 }
 
-.OrderForm input:focus{
+.OrderForm input:focus {
     outline: none;
 }
 
@@ -41,7 +41,7 @@
 
 
 
-.OrderForm button:hover{
+.OrderForm button:hover {
     background-color: rgb(168, 101, 101);
     border: 1px solid rgb(119, 41, 41);
     color: rgb(249, 244, 244);
@@ -62,11 +62,11 @@
     font-size: 22px;
 }
 
-.Empty{
-   text-align: center;
-   height: 800px;
-   font-size: 25px;
-   padding-top: 50px;
-   color: brown;
-   font-weight: 600;
+.Empty {
+    text-align: center;
+    height: 800px;
+    font-size: 25px;
+    padding-top: 50px;
+    color: brown;
+    font-weight: 600;
 }

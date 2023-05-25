@@ -1,6 +1,7 @@
 .footer {
   color: #fff;
 }
+
 .footer-column a {
   text-decoration: none;
   color: #fff;
@@ -20,15 +21,18 @@
   margin-bottom: 10px;
   font-size: 14px;
 }
+
 .network-icons {
   display: flex;
   justify-content: space-evenly;
 }
+
 .network-icons .bi {
   width: 30px;
   height: 30px;
   transition: 0.5s;
 }
+
 .footer-list li:hover {
   cursor: pointer;
   color: #ff00bb;
@@ -41,7 +45,7 @@
 .network-icons .bi:hover {
   cursor: pointer;
   color: #ff00bb;
-  
+
 }
 
 .contacts {
@@ -60,7 +64,7 @@
   transition: 0.5s;
 }
 
-.contacts a:hover{
+.contacts a:hover {
   color: #e61d96;
   transition: 0.5s;
 }
@@ -79,7 +83,7 @@
   transition: 0.5s;
 }
 
-.privacy a:hover{
+.privacy a:hover {
   color: #d85aa5;
   transition: 0.5s;
 }
@@ -109,9 +113,11 @@
     text-decoration: none;
     font-size: 13px;
   }
-  .contacts a:hover{
+
+  .contacts a:hover {
     color: #e869b5;
-  } 
+  }
+
   .privacy {
     display: flex;
     justify-content: space-evenly;
@@ -119,10 +125,12 @@
     color: #e869b5;
 
   }
+
   .privacy a {
     color: white;
     font-size: 12px;
   }
+
   .coty {
     color: white;
     text-align: center;
@@ -140,7 +148,7 @@
   .contacts a {
     color: white;
     text-decoration: none;
-    
+
     font-size: 10px;
   }
 

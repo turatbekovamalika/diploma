@@ -4,7 +4,6 @@ export default function Delivery() {
     return (
         <div className="Container">
             <div className="Delivery">
-
                 <h1>how can you arrange delivery?</h1>
                 <div className="Row">
                     <div className="Col-4">

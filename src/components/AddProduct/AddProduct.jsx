@@ -7,10 +7,8 @@ import "./AddProduct.css";
 export default function AddProduct({ category }) {
   const { user } = useContext(AppContext);
   const [name, setName] = useState("");
-
   const [color, setColor] = useState("");
   const [description, setDescription] = useState("");
-
   const [price, setPrice] = useState(0);
   const [picture, setPicture] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -29,7 +27,6 @@ export default function AddProduct({ category }) {
   function onChangeDescription(event) {
     setDescription(event.target.value);
   }
-
   function onChangePrice(event) {
     setPrice(event.target.value);
   }
@@ -69,8 +66,8 @@ export default function AddProduct({ category }) {
       .catch((error) => {
         console.log("Failed to add product:", error);
       })
-      .finally (() =>{
-        setIsSubmitting (false);
+      .finally(() => {
+        setIsSubmitting(false);
       })
   }
 
@@ -79,7 +76,7 @@ export default function AddProduct({ category }) {
       <form onSubmit={onFormSubmit}>
         <h3>Create a new product</h3>
         <label>
-        <p className="Name">  Name:</p>
+          <p className="Name">  Name:</p>
           <input
             type="text"
             value={name}
@@ -90,7 +87,7 @@ export default function AddProduct({ category }) {
         </label>
 
         <label>
-        <p className="Name">     Color:</p>
+          <p className="Name">     Color:</p>
           <input
             type="text"
             value={color}
@@ -101,7 +98,7 @@ export default function AddProduct({ category }) {
         </label>
 
         <label>
-        <p className="Name">     Description:</p>
+          <p className="Name">     Description:</p>
           <textarea
             type="text"
             value={description}
@@ -112,7 +109,7 @@ export default function AddProduct({ category }) {
         </label>
 
         <label>
-        <p className="Name">     Price:</p>
+          <p className="Name">     Price:</p>
           <input
             type="number"
             value={price}
@@ -123,7 +120,7 @@ export default function AddProduct({ category }) {
           />
         </label>
         <label>
-        <p className="Picture">       Picture:</p>
+          <p className="Picture">       Picture:</p>
           <input className="Input_picture"
             type="file"
             name="picture"
@@ -133,7 +130,6 @@ export default function AddProduct({ category }) {
         </label>
         <button className="Button_submit" type="submit" disabled={isSubmitting}>
           {isSubmitting ? "Submiting..." : "Submit"}
-       
         </button>
       </form>
     </div>

@@ -12,8 +12,6 @@ export default function Category() {
     const category = categories.find
         ((category) => params.path === category.path
         );
-
-    
     if (!category){
         return<NotFound/>
     }    

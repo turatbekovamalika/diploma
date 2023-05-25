@@ -24,12 +24,10 @@ const AddCategory = () => {
       alert(
         "Please provide a category name with minimum length of 5 characters."
       );
-      
+
       return;
     }
-
     setIsSubmitting(true);
-
     addDoc(categoryCollection, {
       name: name,
       path: name.replaceAll(" ", "-").toLocaleLowerCase(),
@@ -42,7 +40,6 @@ const AddCategory = () => {
 
   return (
     <div className="AddCategory">
-
       <input
         size="15"
         type="text"
@@ -52,7 +49,6 @@ const AddCategory = () => {
       />
       <button onClick={onAddCategory} disabled={isSubmitting}>+</button>
     </div>
-
   );
 };
 

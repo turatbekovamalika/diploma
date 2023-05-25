@@ -25,13 +25,11 @@ export default function OrderList() {
 
     return (
       <div className="Order">
-
         <div>Name :  {order.name}</div>
         <div>Phone :  {order.phone}</div>
         <div>Address :  {order.address}</div>
         <div>Cart :  {cart}</div>
       </div>
-
     );
   });
 

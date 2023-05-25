@@ -1,10 +1,10 @@
 .NavToggle {
   display: none;
- 
+
   cursor: pointer;
   background-color: transparent;
   border: none;
- 
+
   margin-left: 58px;
   transition: 0.4s;
   padding: 5px 5px;

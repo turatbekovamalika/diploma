@@ -1,42 +1,3 @@
-.Sign-in button {
-    padding: 3px 13px;
-    font-size: 15px;
-    font-weight: 500;
-    margin-top: 7px;
-    margin-left: 21px;
-    border: none;
-    border-left: 3px solid #c48989;
-    border-right: 3px solid #c48989;
-    background-color: transparent;
-    transition: 0.5S;
-    cursor: pointer;
-}
-
-.Sign-in button:hover {
-    background-color: #cb9591;
-    color: rgb(251, 246, 246);
-    transition: 0.5S;
-}
-
-.Back button {
-    background-color: transparent;
-    display: flex;
-    padding-left: 25px;
-    padding-right: 25px;
-    border: none;
-    font-size: 15px;
-    border-top: 3px solid #c48989;
-    border-bottom: 3px solid #c48989;
-    transition: 0.5S;
-    cursor: pointer;
-}
-
-.Back button:hover {
-    background-color: #c48989;
-    color: aliceblue;
-    transition: 0.5S;
-}
-
 .Auth a {
     text-decoration: none;
     color: rgb(129, 34, 34);
@@ -75,7 +36,7 @@ button {
 
 }
 
-.img-container img:hover{
+.img-container img:hover {
     box-shadow: 0px 0px 15px 1px rgb(190, 137, 137);
 }
 
@@ -88,7 +49,7 @@ button {
     transition: 0.3s;
 }
 
-.LogOut-img img:hover{
+.LogOut-img img:hover {
     box-shadow: 0px 0px 15px 1px rgb(193, 154, 154);
 }
 

@@ -1,14 +1,8 @@
 .Layout {
-    /*max-width: 1000px;*/
-
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-
-
 }
-
-
 
 .Layout header {
     flex-basis: 100%;
@@ -47,12 +41,12 @@
 
 .Layout .Logo-cart {
     padding: 20px;
-   display: flex;
-   align-items: baseline;
-   margin-top: 10px;
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
 }
 
-.Layout .Logo-cart .LogOut-img img{
+.Layout .Logo-cart .LogOut-img img {
     margin-top: 1px;
 }
 

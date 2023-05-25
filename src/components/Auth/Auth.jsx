@@ -6,7 +6,6 @@ import { NavLink } from "react-router-dom";
 
 export default function Auth() {
   const { user } = useContext(AppContext);
-
   return (
     <div className="Auth">
       {user ? (
@@ -34,11 +33,8 @@ export default function Auth() {
                 alt="Placeholder"
               />
             </NavLink>
-
           </div>
-
         </span>
-
       )}
     </div>
   );

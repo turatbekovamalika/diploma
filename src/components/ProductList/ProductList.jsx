@@ -52,13 +52,10 @@ export default function ProductList({ category }) {
         ));
     return (
         <div className="Container">
-        <div className="ProductList">
-            
+        <div className="ProductList">      
             <div className="Categoryyy">
                 {outputt}  </div>
-
             <div className="productlist2">{output}</div>
-
             <AddProduct category={category} />
             </div>
         </div>

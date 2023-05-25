@@ -1,8 +1,8 @@
 .AddProduct form {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-  
+    align-items: flex-start;
+
 }
 
 .AddProduct input {
@@ -14,7 +14,7 @@
     color: brown;
 }
 
-.AddProduct textarea{
+.AddProduct textarea {
     background-color: rgb(251, 245, 247);
     border: 1px solid rgb(194, 164, 164);
     border-radius: 10px;
@@ -23,11 +23,11 @@
     color: brown;
 }
 
-.AddProduct textarea:focus{
+.AddProduct textarea:focus {
     outline: none;
 }
 
-.AddProduct input:focus{
+.AddProduct input:focus {
     outline: none;
 }
 
@@ -37,22 +37,19 @@
     font-weight: 600;
 }
 
-.AddProduct  {
-    margin-left:80px ;
+.AddProduct {
+    margin-left: 80px;
 }
 
 
 .AddProduct .Picture {
- margin-left: -90px;
- 
+    margin-left: -90px;
+
 }
 
-.AddProduct .Input_picture{
+.AddProduct .Input_picture {
     padding: 13px 1px;
 }
-
-
-
 
 .AddProduct button {
     color: white;
@@ -65,7 +62,8 @@
     transition: 0.5s;
     margin-left: 40px;
 }
-.AddProduct button:hover{
+
+.AddProduct button:hover {
     background-color: rgb(168, 101, 101);
     border: 1px solid rgb(119, 41, 41);
     color: rgb(249, 244, 244);

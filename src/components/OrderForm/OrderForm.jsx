@@ -30,15 +30,14 @@ export default function OrderForm() {
   if (Object.keys(cart).length === 0) {
     return (
       <div className="Empty">
-      "Your cart is empty."
+        "Your cart is empty."
       </div>
-      );
+    );
   }
-
   if (!user) {
     return (
       <div className="Please" >
-        
+
         "Please login"
       </div>
     );
