@@ -46,12 +46,18 @@
 }
 
 .Layout .Logo-cart {
-    padding: 10px;
-    margin-left: 25px;
+    padding: 20px;
+   display: flex;
+   align-items: baseline;
+   margin-top: 10px;
+}
+
+.Layout .Logo-cart .LogOut-img img{
+    margin-top: 1px;
 }
 
 .Layout .Logo-cart .CartLink {
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .Layout aside {
