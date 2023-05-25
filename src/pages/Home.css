@@ -35,7 +35,7 @@
 
 .Home-about:hover {
     transform: scale(1.1);
-  
+
     box-shadow: 0 0 10px 1px rgb(138, 63, 88);
 }
 
@@ -66,7 +66,7 @@ button:hover {
     background-position: top right;
     background-repeat: no-repeat;
     height: 500px;
-   
+
 
 }
 
@@ -80,7 +80,7 @@ button:hover {
 }
 
 .Home .Kylie-lips p {
-  /*  color: rgb(229, 91, 91);
+    /*  color: rgb(229, 91, 91);
     font-size: 25px;
     text-align: end;
     padding-top: 50px;
@@ -114,7 +114,7 @@ button:hover {
 
 .Home .Col-6 p:hover {
     transform: scale(1.1);
-    
+
 }
 
 .Home .Lip-liner {
@@ -167,15 +167,15 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 960px) {
     .Home .Kylie {
         background-image: url(https://cdn.shopify.com/s/files/1/0662/4598/4498/collections/PLP-Imagery_Cosmetics_Collections_gloss-_-glow_Desktop_SP_opt-1_1920x549.webp?v=1677078719);
         background-size: cover;
         background-position: top right;
         background-repeat: no-repeat;
         height: 500px;
-      
-    
+
+
     }
 
     .Home-about {
@@ -183,12 +183,10 @@ button:hover {
     }
 }
 
-
-
 @media screen and (max-width: 700px) {
     .Home h1 {
-       font-size: 32px;
-       text-align: center;
+        font-size: 32px;
+        text-align: center;
     }
 
     .Home-about {
@@ -196,19 +194,19 @@ button:hover {
     }
 
     .Home .Col-6 p:hover {
-        transform:none;
+        transform: none;
     }
 }
 
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
     .Home .Neon {
         font-size: 27px;
         text-align: center;
-     }
+    }
 
-     .Home .Col-6  {
-       /*color: rgb(41, 33, 104);*/
+    .Home .Col-6 {
+        /*color: rgb(41, 33, 104);*/
         padding: 0px;
         text-align: center;
         line-height: 18px;
@@ -216,5 +214,5 @@ button:hover {
         transition: 0.5S;
         flex: 100% 0 0;
     }
- 
+
 }

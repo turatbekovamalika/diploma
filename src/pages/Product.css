@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     margin: 50px;
-    
+
 }
 
 .Productt .Price-button {
@@ -36,7 +36,7 @@
 }
 
 .Productt span {
-   
+
     padding-left: 40px;
     font-size: 21px;
     margin: 25px;
@@ -48,6 +48,7 @@
     text-align: center;
     display: inline-block;
 }
+
 @media (max-width: 750px) {
     .Productt img {
         height: 170px;
@@ -77,12 +78,13 @@
     .Productt p {
         display: none;
     }
+
     .Productt h1 {
         text-align: center;
         font-size: 27px;
         padding-top: 50px;
         margin-bottom: 40px;
-        padding-left:120px;
+        padding-left: 120px;
     }
 }
 

@@ -1,7 +1,6 @@
 .CartList {
     flex-wrap: wrap;
     margin: 0 auto;
-
 }
 
 .CartList .CartItem {
@@ -20,7 +19,6 @@
 
 .CartList .CartItem img {
     width: 150px;
-
 }
 
 .Picture {
@@ -46,7 +44,7 @@
     background-color: transparent;
     margin-bottom: 40px;
     max-width: 20px;
-   
+
 }
 
 .CartList a {
@@ -62,7 +60,6 @@
     color: rgb(196, 128, 128);
     font-family: cursive;
     font-weight: 700;
-
     font-size: 20px;
     padding: 40px;
 }
@@ -105,11 +102,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
-@media screen and (max-width:951px){
-
-
-   
-
+@media screen and (max-width:951px) {
     .CartList .CartItem {
         padding: 15px 60px;
         display: flex;
@@ -123,6 +116,7 @@ input[type=number]::-webkit-outer-spin-button {
         background-color: white;
         transition: 0.5s;
     }
+
     .CartList .CartItem img {
         width: 120px;
 
@@ -138,7 +132,7 @@ input[type=number]::-webkit-outer-spin-button {
         max-width: 50px;
         margin-top: 0px;
         cursor: pointer;
-       
+
     }
 
 
@@ -194,7 +188,7 @@ input[type=number]::-webkit-outer-spin-button {
         max-width: 50px;
         margin-top: 0px;
         cursor: pointer;
-       
+
     }
 
 
@@ -253,10 +247,10 @@ input[type=number]::-webkit-outer-spin-button {
         font-size: 14px;
         max-width: 20%;
     }
-   
+
 }
 
-@media screen and (max-width:415px){
+@media screen and (max-width:415px) {
     .CartList .CartItem {
         padding: 1px 10px;
         display: flex;
@@ -270,6 +264,7 @@ input[type=number]::-webkit-outer-spin-button {
         background-color: white;
         transition: 0.5s;
     }
+
     .CartList a {
         color: rgb(158, 104, 104);
         font-weight: 600;
@@ -285,9 +280,9 @@ input[type=number]::-webkit-outer-spin-button {
         font-weight: 700;
         padding: 1px;
         font-size: 15px;
-  
+
     }
-    
+
     .CartItem input {
         max-width: 50px;
         outline: none;
@@ -297,5 +292,4 @@ input[type=number]::-webkit-outer-spin-button {
         max-width: 20%;
     }
 
-   
 }

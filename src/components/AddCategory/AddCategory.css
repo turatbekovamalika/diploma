@@ -1,4 +1,3 @@
-
 .AddCategory input {
     background-color: rgb(251, 245, 247);
     border: 1px solid rgb(194, 164, 164);
@@ -6,10 +5,8 @@
     padding: 12px;
     margin: 5px;
     color: brown;
-
 }
 
 .AddCategory button{
     padding: 5px 15px;
-
 }
