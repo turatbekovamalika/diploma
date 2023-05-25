@@ -83,7 +83,7 @@ body {
 
 
 
-.DeleteProduct  {
+.DeleteProduct {
   transition: 0.5s;
   background-color: transparent;
   border: none;
@@ -92,30 +92,23 @@ body {
 
 }
 
-.DeleteProduct:hover{
+.DeleteProduct:hover {
   background-color: transparent;
   transform: rotate(360deg);
- 
+
 }
 
-.DeleteCategory{
+.DeleteCategory {
   transition: 0.5s;
   background-color: transparent;
   border: none;
- font-size: 35px;
+  font-size: 35px;
   cursor: pointer;
   margin-left: 110px;
 }
 
-.DeleteCategory:hover{
+.DeleteCategory:hover {
   background-color: transparent;
   transform: rotate(360deg);
 }
 
-.Cart{
-  height: 500px;
-  text-align: center;
-  color: brown;
-  font-size: 25px;
-  padding-top: 50px;
-}
